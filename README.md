@@ -1,169 +1,66 @@
-<!DOCTYPE html>
-<html lang="en">
+Netflix Clone HTML Code Description for GitHub Repository
+This is a Netflix India homepage clone built with HTML and CSS. Below is the description you can use when adding this project to your GitHub repository:
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix India – Watch TV Shows Online, Watch Movies Online</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+Project Description
+A responsive Netflix India homepage clone built with pure HTML and CSS. This project replicates the main visual elements and layout of Netflix's streaming platform, including:
 
-<body>
+Hero section with call-to-action
 
-    <div class="main">
-        <nav>
-            <span><img width="53" src="assets/images/logo.svg" alt=""></span>
-            <div>
-                <button class="btn">English</button>
-                <option value="Telugu">Telugu</option>
-                <option value="English">English</option>
-                <button class="btn btn-red-sm">Sign In</button>
-            </div>
-        </nav>
-        <div class="box">
-        </div>
-        <div class="hero">
-            <span>Unlimited movies, TV shows and more</span>
-            <span>Starts at ₹149. Cancel at any time.</span>
-            <span>Ready to watch? Enter your email to create or restart your membership</span>
-            <div class="hero-buttons">
-                <input type="text" placeholder="Email Address">
-                <button class="btn btn-red">Get Started &gt;</button>
-            </div>
-        </div>
+Feature sections with alternating layouts
 
-        <div class="separation"></div>
+FAQ accordion section
 
-    </div>
+Footer with navigation links
 
-    <section class="first">
-        <div>
-            <span>Enjoy on your TV</span>
-            <span>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</span>
-        </div>
+Responsive design elements
 
-        <div class="secImg">
-            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="">
-            <video src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v"
-                autoplay loop muted></video>
-        </div>
-    </section>
-    <div class="separation"></div>
+Key Features
+✔ Netflix-style navigation bar with language selector and sign-in button
+✔ Hero section with email signup form
+✔ Four feature sections with:
 
-    <section class="first second">
+TV display animation
 
-        <div class="secImg">
-            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" alt="">
+Mobile download option
 
-        </div>
-        <div>
-            <span>Download your shows to watch offline</span>
-            <span>Save your favourites easily and always have something to watch.</span>
-        </div>
-    </section>
+Cross-device streaming
 
-    <div class="separation"></div>
-    <section class="first third">
-        <div>
-            <span>Watch everywhere</span>
-            <span>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</span>
-        </div>
+Kids profile creation
+✔ Interactive FAQ section with expandable questions
+✔ Footer with multiple link columns
 
-        <div class="secImg">
-            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="">
-            <video src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-in.m4v"
-                autoplay loop muted></video>
-        </div>
-    </section>
-    <div class="separation"></div>
+File Structure
+text
+netflix-clone/
+├── index.html           # Main HTML file
+├── style.css            # Stylesheet
+└── assets/
+    └── images/
+        ├── logo.svg     # Netflix logo
+        └── bg.jpg       # Background image
+How to Use
+Clone this repository
 
+Open index.html in your browser
 
-    <section class="first second">
+Explore the Netflix clone interface
 
-        <div class="secImg">
-            <img src="https://occ-0-2849-3646.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png?r=54d"
-                alt="">
+Technologies Used
+HTML5
 
-        </div>
-        <div>
-            <span>Create profiles for kids</span>
-            <span>Send children on adventures with their favourite characters in a space made just for them—free with
-                your membership.</span>
-        </div>
-    </section>
+CSS3
 
-    <div class="separation"></div>
+SVG icons
 
-    <section class="faq">
-        <h2>Frequently Asked Questions</h2>
-        <div class="faqbox">
-            <span>What is NetFlix</span>
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 4V20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path d="M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
+Responsive design principles
 
-        </div>
-        <div class="faqbox">
-            <span>How much does Netflix cost?</span>
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 4V20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path d="M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
+Future Improvements
+Add JavaScript for interactive elements
 
-        </div>
-        <div class="faqbox">
-            <span>What can I watch on Netflix?</span>
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 4V20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path d="M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
+Implement responsive design for mobile devices
 
-        </div>
-        <div class="faqbox">
-            <span>Where can I watch?</span>
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 4V20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path d="M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
+Add actual Netflix API integration
 
-        </div>
-    </section>
-    <div class="separation"></div>
+Create functional sign-in/sign-up forms
 
-    <footer>
-        <div class="questions">
-            Questions? Call 000-800-919-1694
-        </div>
-        <div class="footer">
-            <div class="footer-item"> 
-                <a href="faq">Investor Relations</a>
-                <a href="faq">Jobs</a>
-                <a href="faq">Ways to Watch</a>
-                <a href="faq">Terms of Use</a>
-            </div>
-
-            <div class="footer-item"> 
-                <a href="faq">Help Centre</a>
-                <a href="faq">Account</a>
-                <a href="faq">Speed Test</a>
-                <a href="faq">Legal Notices</a>
-            </div>
-            <div class="footer-item">
-                <a href="faq">Media Centre</a>
-                <a href="faq">Privacy</a>
-                <a href="faq">Cookie Preferences</a> 
-                <a href="faq">Corporate</a>
-            </div>
-
-            <div class="footer-item">
-                <a href="faq">Contact Us</a>
-                <a href="faq">Speed Test</a> 
-                <a href="faq">Legal Notices</a> 
-                <a href="faq">Only on Netflix</a>
-            </div>
-        </div>
-    </footer>
-</body>
-
-</html>
+This project serves as a great frontend exercise for practicing HTML/CSS layout skills and recreating complex interfaces
